@@ -1,0 +1,282 @@
+[
+  {
+    "source_level": "junior",
+    "topic_id": "1.1",
+    "title": "Métrica LOC (Lines of Code) 🚀",
+    "flashcard_count": 4,
+    "question_count": 4,
+    "points": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "challenge_count": 1
+  },
+  {
+    "source_level": "junior",
+    "topic_id": "1.2",
+    "title": "Pontos de Função (PF) 🎯",
+    "flashcard_count": 7,
+    "question_count": 4,
+    "points": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "challenge_count": 1
+  },
+  {
+    "source_level": "junior",
+    "topic_id": "1.3",
+    "title": "Complexidade Ciclomática (McCabe) 🔥",
+    "flashcard_count": 6,
+    "question_count": 4,
+    "points": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "challenge_count": 1
+  },
+  {
+    "source_level": "junior",
+    "topic_id": "1.4",
+    "title": "Profundidade de Aninhamento (Nesting Depth) 🪜",
+    "flashcard_count": 4,
+    "question_count": 4,
+    "points": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "challenge_count": 1
+  },
+  {
+    "source_level": "junior",
+    "topic_id": "1.5",
+    "title": "Quantidade de Parâmetros por Método 🔢",
+    "flashcard_count": 5,
+    "question_count": 4,
+    "points": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "challenge_count": 1
+  },
+  {
+    "source_level": "junior",
+    "topic_id": "1.6",
+    "title": "Índice de Manutenibilidade (MI) 📊",
+    "flashcard_count": 4,
+    "question_count": 4,
+    "points": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "challenge_count": 1
+  },
+  {
+    "source_level": "junior",
+    "topic_id": "1.7",
+    "title": "Code Smells 👃",
+    "flashcard_count": 5,
+    "question_count": 4,
+    "points": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "challenge_count": 1
+  },
+  {
+    "source_level": "junior",
+    "topic_id": "1.8",
+    "title": "Indicadores de Churn (Frequência de Mudanças) 🔄",
+    "flashcard_count": 5,
+    "question_count": 4,
+    "points": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "challenge_count": 1
+  },
+  {
+    "source_level": "junior",
+    "topic_id": "1.9",
+    "title": "Número de Módulos, Classes, Métodos ou Requisitos 🧩",
+    "flashcard_count": 4,
+    "question_count": 4,
+    "points": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "challenge_count": 1
+  },
+  {
+    "source_level": "pleno",
+    "topic_id": "1",
+    "title": "Visão Holística das Métricas de Processo 🎯",
+    "flashcard_count": 4,
+    "question_count": 4,
+    "points": [
+      1,
+      2,
+      3,
+      3
+    ],
+    "challenge_count": 1
+  },
+  {
+    "source_level": "pleno",
+    "topic_id": "2",
+    "title": "Produtividade de Software 🚀",
+    "flashcard_count": 4,
+    "question_count": 4,
+    "points": [
+      1,
+      2,
+      3,
+      3
+    ],
+    "challenge_count": 1
+  },
+  {
+    "source_level": "pleno",
+    "topic_id": "3",
+    "title": "Densidade de Defeitos e Taxa de Escape 🐞",
+    "flashcard_count": 4,
+    "question_count": 4,
+    "points": [
+      1,
+      2,
+      3,
+      3
+    ],
+    "challenge_count": 1
+  },
+  {
+    "source_level": "pleno",
+    "topic_id": "4",
+    "title": "Taxas de Retrabalho (Rework Rates) 🔄",
+    "flashcard_count": 4,
+    "question_count": 4,
+    "points": [
+      1,
+      2,
+      3,
+      3
+    ],
+    "challenge_count": 1
+  },
+  {
+    "source_level": "pleno",
+    "topic_id": "5",
+    "title": "O Custo Exponencial do Retrabalho 📈",
+    "flashcard_count": 4,
+    "question_count": 4,
+    "points": [
+      1,
+      2,
+      3,
+      3
+    ],
+    "challenge_count": 1
+  },
+  {
+    "source_level": "senior",
+    "topic_id": "1",
+    "title": "WMC — Complexidade da Classe 👑",
+    "flashcard_count": 4,
+    "question_count": 4,
+    "points": [
+      1,
+      2,
+      3,
+      3
+    ],
+    "challenge_count": 1
+  },
+  {
+    "source_level": "senior",
+    "topic_id": "2",
+    "title": "DIT — Profundidade de Herança 👑",
+    "flashcard_count": 4,
+    "question_count": 4,
+    "points": [
+      1,
+      2,
+      3,
+      3
+    ],
+    "challenge_count": 1
+  },
+  {
+    "source_level": "senior",
+    "topic_id": "3",
+    "title": "NOC — Quantidade de Subclasses 👑",
+    "flashcard_count": 4,
+    "question_count": 4,
+    "points": [
+      1,
+      2,
+      3,
+      3
+    ],
+    "challenge_count": 1
+  },
+  {
+    "source_level": "senior",
+    "topic_id": "4",
+    "title": "CBO — Acoplamento de Classes 👑",
+    "flashcard_count": 4,
+    "question_count": 4,
+    "points": [
+      1,
+      2,
+      3,
+      3
+    ],
+    "challenge_count": 1
+  },
+  {
+    "source_level": "senior",
+    "topic_id": "5",
+    "title": "RFC — Complexidade de Resposta 👑",
+    "flashcard_count": 4,
+    "question_count": 4,
+    "points": [
+      1,
+      2,
+      3,
+      3
+    ],
+    "challenge_count": 1
+  },
+  {
+    "source_level": "senior",
+    "topic_id": "6",
+    "title": "LCOM — Falta de Coesão nos Métodos 👑",
+    "flashcard_count": 4,
+    "question_count": 4,
+    "points": [
+      1,
+      2,
+      3,
+      3
+    ],
+    "challenge_count": 1
+  }
+]
