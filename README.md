@@ -1,8 +1,22 @@
-# DevEvolution — SBQS 2026 replication materials
+# DevEvolution — project and replication materials for SBQS 2026
 
 Associated paper: **DevEvolution: A Web-Based Gamified Educational Application for Software Measurement and Analysis**, SBQS 2026, Education in Software Quality track.
 
-Authors in submission order: Vanessa Rodrigues de Oliveira, Vanusa Rodrigues de Oliveira, Bento Rafael Siqueira, Cristiane Aparecida Lana, Samira Santos da Silva. Affiliations and institutional contacts: [AUTHORS.md](AUTHORS.md).
+## Article and authors
+
+This is the public project repository associated with the article above, prepared for the **Education in Software Quality track of SBQS 2026**. The application source, instructional materials and available anonymized evaluation records are described below.
+
+Authors are listed in the submitted order:
+
+| Author | Affiliation | Location | Email |
+|---|---|---|---|
+| Vanessa Rodrigues de Oliveira | Institute of Science, Technology and Innovation (ICTIN), Federal University of Lavras (UFLA) | São Sebastião do Paraíso, Minas Gerais, Brazil | vanessa.oliveira9@estudante.ufla.br |
+| Vanusa Rodrigues de Oliveira | Institute of Science, Technology and Innovation (ICTIN), Federal University of Lavras (UFLA) | São Sebastião do Paraíso, Minas Gerais, Brazil | vanusa.oliveira1@estudante.ufla.br |
+| Bento Rafael Siqueira | Department of Applied Computing (DAC), Federal University of Lavras (UFLA) | Lavras, Minas Gerais, Brazil | bento.siqueira@ufla.br |
+| Cristiane Aparecida Lana | Institute of Science, Technology and Innovation (ICTIN), Federal University of Lavras (UFLA) | São Sebastião do Paraíso, Minas Gerais, Brazil | cristiane.lana@ufla.br |
+| Samira Santos da Silva | Institute of Science, Technology and Innovation (ICTIN), Federal University of Lavras (UFLA) | São Sebastião do Paraíso, Minas Gerais, Brazil | samirasilva@ufla.br |
+
+The same author information is preserved in [AUTHORS.md](AUTHORS.md). Project source: [derived/source](derived/source). Web application: [DevEvolution](https://dev-evolution-game.lovable.app/).
 
 Updated 2026-10-13 after recovery of an existing author-supplied evaluation response export.
 
@@ -30,7 +44,14 @@ The education labels are aggregates of self-reports; whether they describe compl
 
 ## Running the source
 
-Use the package manifest and supplied Bun lockfile. Copy `derived/source/.env.example` to a local `.env` and configure a separately provisioned Supabase project. Install dependencies and run the `dev` command in `package.json`. The archive does not include SQL schema/migrations or row-level security policies; backend reproduction therefore requires author-supplied configuration. The web deployment is https://dev-evolution-game.lovable.app/; the public source snapshot is not proven to be exactly the version evaluated by all participants.
+Clone this repository and enter the application source directory:
+
+```sh
+git clone https://github.com/californi/devevolution-sbqs2026-replication.git
+cd devevolution-sbqs2026-replication/derived/source
+```
+
+Use the package manifest and supplied Bun lockfile. In the application source directory, copy `.env.example` to a local `.env` and configure a separately provisioned Supabase project. Install dependencies and run the `dev` command in `package.json`. The archive does not include SQL schema/migrations or row-level security policies; backend reproduction therefore requires author-supplied configuration. The web deployment is https://dev-evolution-game.lovable.app/; the public source snapshot is not proven to be exactly the version evaluated by all participants.
 
 ## Provenance and privacy
 
