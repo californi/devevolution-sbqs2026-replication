@@ -4,7 +4,7 @@ Associated paper: **DevEvolution: A Web-Based Gamified Educational Application f
 
 ## Article and authors
 
-This is the public project repository associated with the article above, prepared for the **Education in Software Quality track of SBQS 2026**. The application source, instructional materials and available anonymized evaluation records are described below.
+This is the public project repository associated with the article above, prepared for the **Education in Software Quality track of SBQS 2026**. The application source, instructional materials and available de-identified evaluation records are described below.
 
 Authors are listed in the submitted order:
 
@@ -29,7 +29,7 @@ This identified release preserves instructional documents from the existing publ
 - `derived/configuration.patch`: exact configuration-only diff.
 - `derived/content-inventory.json`: mechanical inventory of topics, flashcards, questions and scoring from the archived code.
 - `derived/reported-*.csv`: preserved historical manuscript transcriptions.
-- `derived/evaluation/`: anonymized responses (28 complete SUS and three usefulness items), recovered Portuguese question labels, recomputed scores/frequencies, profile aggregates, separately redacted comments, privacy documentation, and a standard-library Python reproduction script.
+- `derived/evaluation/`: de-identified responses (28 complete SUS and three usefulness items), recovered Portuguese question labels, recomputed scores/frequencies, profile aggregates, separately redacted comments, privacy documentation, and a standard-library Python reproduction script.
 - `history/2026-10-12/`: earlier release documentation preserved before recovery of evaluation records.
 - `CONSISTENCY.md`: differences between the source archive, instructional materials, and submitted manuscript.
 - `manifest-sha256.json`: provenance and file checksums.
@@ -62,3 +62,13 @@ Downloaded on 2026-10-12 from:
 Original downloaded archives are preserved locally. Instructional PDFs are published byte-for-byte. Source configuration changes are documented in a derived file; learning content, labels and scoring are preserved. Operational player names, emails and database exports are excluded. Private reviews and private revision spreadsheets are excluded. No new license is asserted; reuse permissions should be confirmed with the authors where not present in original materials.
 
 The identified instructional repository https://github.com/vanessarodrigues5307/dev-documentacao was downloaded on 2026-10-13 and contains the same six PDFs and original README byte-for-byte as the earlier anonymous documentation archive. It contains no additional evaluation-duration, completion or coding records. The evaluation export was supplied separately by the authors. Its original workbook is preserved privately. See `derived/evaluation/PRIVACY.md` for transformations; exact timestamps, individual profiles and comment-to-score mappings are excluded. Private review documents and revision workbooks are not public replication materials.
+
+## Original Portuguese tables and English article presentation
+
+The article presents editorial English translations of the exported SUS, usefulness and open-question wording. These translations were not administered or independently validated. Existing response values and frequencies are unchanged.
+
+- [Supplementary original materials (PDF)](derived/evaluation/supplement-originals.pdf): original Portuguese SUS and agreement tables, open-question labels, aggregate profile labels, and supplied Portuguese interface illustrations.
+- [Original questionnaire tables](derived/evaluation/questionnaire-original-tables.md): exact exported Portuguese labels and counts.
+- [Bilingual SUS item table](derived/evaluation/sus-items-bilingual.csv) and [editorial translations](derived/evaluation/editorial-translations.json): original labels and article translations, without individual background records.
+
+The English interface figures in the article are schematic translations of the supplied illustrations. They do not document a localized application version or a new evaluated interface. Portuguese originals are preserved in the supplement; application content and scoring are unchanged. The supplementary PDF contains aggregate counts and supplied interface illustrations, not participant names, emails, exact timestamps or a row-linking map.

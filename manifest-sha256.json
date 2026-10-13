@@ -6,18 +6,22 @@
   },
   "files": {
     "AUTHORS.md": "991623c6abd3e8eb4ca80f68cd8d0d9f407c9e6c6665aa561f0af8a7c3f4e36c",
-    "CONSISTENCY.md": "db740b9b7d9cd0b2a6b76996b93f36349d77687d769c7a606bd26735171d4247",
-    "README.md": "1b9161bebf24539518599a11019bbd13e89499199969eb4c27ca68d5142bfb70",
+    "CONSISTENCY.md": "d275af86c4fb86e8f86cf3802b9592cffa88948b9f6e5b2a78e97cd88f355a53",
+    "README.md": "b92793831bd8535c3d22f9ee84548b14e2ff1bf8ab8bca5ccbf18eadc84c039f",
     "derived/configuration.patch": "396dd725b2d1298f3ad9723de8bee9d28907b71cd01431e0dc423bb09a70ad5c",
     "derived/content-inventory.json": "4087d9738d7fa47b6c7338a6bffcccb3273e1090755f947a41854e8d3810c8ac",
-    "derived/evaluation/PRIVACY.md": "dd4ad6827362c16a2a560a00f5febd7b686b2cf7ed9fdf417d43f06e9768d1f8",
+    "derived/evaluation/PRIVACY.md": "df70d8035458892687c158b1dec33b401349651f5e240bf09b1f7f49f2b73452",
+    "derived/evaluation/editorial-translations.json": "a2584a94f8788fc7276ccd69117a79899ffc70d31257c206c3b880feffe80fd1",
     "derived/evaluation/open-feedback-redacted.csv": "0688b16942d52ad066d247c3e4f3037a5a02fb7773555472058a91d92e50ec1b",
     "derived/evaluation/profile-aggregates.csv": "57d67649717bf77cf2f8edf428e924e46252a57d97f30fc0770331ceeea7dec4",
     "derived/evaluation/questionnaire-labels.json": "b9fcac11f718a4128b7e936b983b43b5db9f090f6dcfa5df0e9ad8b533c6ea29",
     "derived/evaluation/questionnaire-labels.md": "bdd2744e43471d7631749450161db95da9611fef57aebfc58be545b1e3ace654",
+    "derived/evaluation/questionnaire-original-tables.md": "a85ac2de4ccfee87cd402fb59b53ab0fae30364e0ee088b0a56cac93f9a08a2b",
     "derived/evaluation/recompute.py": "12a445d9efbb9133fd8230b32a4122d269c9e63def1b1a9591db1f5298ad8a2b",
     "derived/evaluation/responses-anonymized.csv": "7cace6e798a794ea7ac57a6b1c4724c47a87d874a008b667c5cfeefd0d6fdf89",
+    "derived/evaluation/supplement-originals.pdf": "638958f7ee6ee7be0c1ab6477f60d30018310db7c2a6b677b30fb24d22754d0e",
     "derived/evaluation/sus-item-frequencies.csv": "a8e64abe032476663238fa974f290dbed10c2f966608db2f8a3fc10f401a0b3b",
+    "derived/evaluation/sus-items-bilingual.csv": "66e3b08cf9b05b4354f4cf49dab7e31b998c45f3785bc740d9febe53cfdfea41",
     "derived/evaluation/sus-scores-recomputed.csv": "7983e20a3c70dca592a19153415e08497870a5d7cda2c3ab3800c5f6b0b944d3",
     "derived/evaluation/sus-summary-recomputed.csv": "08df04a425996a86e104ade69ce09d6695c517a413d0d37c735f32fd00deb185",
     "derived/evaluation/usefulness-frequencies.csv": "563353030bf2d317afa621ec549c869fc2ffc3b2a29e51c263f7d4a0c60998d1",
@@ -109,5 +113,6 @@
   },
   "updated_on": "2026-10-13",
   "evaluation_source": "Privately preserved author-supplied response export; original workbook excluded from public release.",
-  "evaluation_source_sha256": "8e88b5061a4241faa517579197525ab3dd6d75b3da56246e308de29091844b28"
+  "evaluation_source_sha256": "8e88b5061a4241faa517579197525ab3dd6d75b3da56246e308de29091844b28",
+  "presentation_updated_on": "2026-10-13"
 }

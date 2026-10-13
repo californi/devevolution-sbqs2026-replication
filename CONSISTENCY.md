@@ -22,3 +22,5 @@ This audit inspects existing artifacts. The update verifies descriptive quantita
 The original source revision cannot be uniquely linked to the evaluated cohort with the available records. The paper distinguishes reported study findings from inspected archive properties. The authors must verify this relationship before claiming full replication.
 
 Earlier documentation is preserved under `history/2026-10-12/`. The new identified GitHub documentation repository matches the old instructional files byte-for-byte and supplies no missing evaluation logs or coding matrix. The privately preserved response export is a distinct recovered source.
+
+English presentation update (2026-10-13): the article uses editorial English question translations and schematic English interface views. Original Portuguese labels/counts and supplied illustrations are preserved separately in the supplement. This changes presentation only; frequencies, scores, categories and application code/content are unchanged. The translations were not administered or independently validated.

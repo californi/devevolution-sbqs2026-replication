@@ -1,0 +1,29 @@
+{
+  "sus": [
+    "I think that I would like to use this system frequently",
+    "I found the system unnecessarily complex",
+    "I thought the system was easy to use",
+    "I think that I would need support from a technically knowledgeable person to use this system",
+    "I thought the different functions in this system were well integrated",
+    "I thought there was a lot of inconsistency in this system",
+    "I imagine that most people would learn to use this system very quickly",
+    "I found the system very complicated to use",
+    "I felt confident using this system",
+    "I needed to learn many things before I could use this system"
+  ],
+  "usefulness": [
+    "DevEvolution made learning about software metrics and measurement more interesting",
+    "DevEvolution helped me understand software metrics and measurement concepts",
+    "I would use DevEvolution again as a study support tool"
+  ],
+  "open": [
+    "What did you like most about DevEvolution?",
+    "Did you encounter any difficulties while using the application? If so, what were they?",
+    "What improvements would you suggest for DevEvolution?"
+  ],
+  "profile": {
+    "Graduação": "undergraduate",
+    "Ensino médio": "upper secondary",
+    "Mestrado": "master's"
+  }
+}
