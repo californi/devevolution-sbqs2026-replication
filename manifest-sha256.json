@@ -6,10 +6,21 @@
   },
   "files": {
     "AUTHORS.md": "991623c6abd3e8eb4ca80f68cd8d0d9f407c9e6c6665aa561f0af8a7c3f4e36c",
-    "CONSISTENCY.md": "cd6f219a0f5c98da15f26efb164f7b88772fc08f631733dd0105d2c01f52332b",
-    "README.md": "be5d40ced6f0e8d695533a54db327f3808f207b21794e5a3632205224ccf9920",
+    "CONSISTENCY.md": "db740b9b7d9cd0b2a6b76996b93f36349d77687d769c7a606bd26735171d4247",
+    "README.md": "00525e9bb0783b82e060e6ba4f9e31bff47d30b8c17b1208fc3ece02e0b77b52",
     "derived/configuration.patch": "396dd725b2d1298f3ad9723de8bee9d28907b71cd01431e0dc423bb09a70ad5c",
     "derived/content-inventory.json": "4087d9738d7fa47b6c7338a6bffcccb3273e1090755f947a41854e8d3810c8ac",
+    "derived/evaluation/PRIVACY.md": "dd4ad6827362c16a2a560a00f5febd7b686b2cf7ed9fdf417d43f06e9768d1f8",
+    "derived/evaluation/open-feedback-redacted.csv": "0688b16942d52ad066d247c3e4f3037a5a02fb7773555472058a91d92e50ec1b",
+    "derived/evaluation/profile-aggregates.csv": "57d67649717bf77cf2f8edf428e924e46252a57d97f30fc0770331ceeea7dec4",
+    "derived/evaluation/questionnaire-labels.json": "b9fcac11f718a4128b7e936b983b43b5db9f090f6dcfa5df0e9ad8b533c6ea29",
+    "derived/evaluation/questionnaire-labels.md": "bdd2744e43471d7631749450161db95da9611fef57aebfc58be545b1e3ace654",
+    "derived/evaluation/recompute.py": "12a445d9efbb9133fd8230b32a4122d269c9e63def1b1a9591db1f5298ad8a2b",
+    "derived/evaluation/responses-anonymized.csv": "7cace6e798a794ea7ac57a6b1c4724c47a87d874a008b667c5cfeefd0d6fdf89",
+    "derived/evaluation/sus-item-frequencies.csv": "a8e64abe032476663238fa974f290dbed10c2f966608db2f8a3fc10f401a0b3b",
+    "derived/evaluation/sus-scores-recomputed.csv": "7983e20a3c70dca592a19153415e08497870a5d7cda2c3ab3800c5f6b0b944d3",
+    "derived/evaluation/sus-summary-recomputed.csv": "08df04a425996a86e104ade69ce09d6695c517a413d0d37c735f32fd00deb185",
+    "derived/evaluation/usefulness-frequencies.csv": "563353030bf2d317afa621ec549c869fc2ffc3b2a29e51c263f7d4a0c60998d1",
     "derived/reported-perceptions.csv": "68ac22cf7e30e9312e0860950c8941dbe2c86e8c8727fa9d31f289ab63352bd8",
     "derived/reported-sus-summary.csv": "48b5afc57fc6c695fd31bccc18b22b334a40668ee070c109fe777d6fd2e8045b",
     "derived/source/.env.example": "e365af71a90ce1f8ab929c8380e1b824968316d8dd19244269e2f88538a68162",
@@ -85,6 +96,9 @@
     "derived/source/tsconfig.json": "8f085c1d4841928370f6922fc9b8cabe3dfe84d266fc734a08d3e0dc3f92490d",
     "derived/source/vite.config.ts": "d60cc34fc5e6269f32bcc34cc989efc80114851990c45583f990d442faf21242",
     "derived/source/wrangler.jsonc": "44a244a3817413d9641b9d4fde8bfdd7d3293e26db5a39b5cee7aa946e51a163",
+    "history/2026-10-12/CONSISTENCY.md": "cd6f219a0f5c98da15f26efb164f7b88772fc08f631733dd0105d2c01f52332b",
+    "history/2026-10-12/README.md": "be5d40ced6f0e8d695533a54db327f3808f207b21794e5a3632205224ccf9920",
+    "history/2026-10-12/manifest-sha256.json": "21e604af5fba1ecc5a0a2654a8ac6c20cabdcc951f06ca96532b8c6ef7f6a121",
     "originals/instructional-materials/Banco de Questões.pdf": "f1ba04a0053f34b7c45ca75deca8c74b91ebc86297c74480f67c1b29a196dd29",
     "originals/instructional-materials/Flashcards Engenharia de Software.pdf": "8aa8dbcb13efb62710a41ea6ae4687dd4fed246155cc7ef45aea78038319e8be",
     "originals/instructional-materials/Flashcards Métricas de Processo.pdf": "e44344e3415311b19091fe2f2adfb77efb3d9b978d6220916e3ccbb520af207c",
@@ -92,5 +106,8 @@
     "originals/instructional-materials/Questões CK Sênior.pdf": "4a80d6f8e786d3df63f440a5f179187987e76b5386c5769a690f710bd8355693",
     "originals/instructional-materials/Questões de Métricas de Processo.pdf": "bf2c1a532274739676a90e85551a17cccf93fdd1ac3129dd0268110d3b58d494",
     "originals/instructional-materials/README.md": "62f8adb08703b1d5cead9ee9753332595b5c3ba827c0c6655c38e2219603ee28"
-  }
+  },
+  "updated_on": "2026-10-13",
+  "evaluation_source": "Privately preserved author-supplied response export; original workbook excluded from public release.",
+  "evaluation_source_sha256": "8e88b5061a4241faa517579197525ab3dd6d75b3da56246e308de29091844b28"
 }

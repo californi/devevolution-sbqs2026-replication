@@ -1,0 +1,5 @@
+# Derived evaluation release
+
+The original workbook is preserved privately and is not published. This release removes precise response timestamps and omits participant-level education, previous-course and prior-knowledge labels; only profile aggregates are provided. Quantitative rows use newly assigned anonymous identifiers after reordering. Open comments are released separately, reordered, with no mapping to quantitative rows or demographic profiles. One personal parenthetical remark was removed from a difficulty response, preserving the reported distraction. No respondent names or emails are in the supplied response headers. No operational player records, private reviews, revision spreadsheets or author-only correspondence are included.
+
+These transformations do not alter the 28 complete SUS responses or the three usefulness responses. They do not reconstruct the original qualitative coding matrix. Category counts in the manuscript retain their original reported status until author coding records can be verified.

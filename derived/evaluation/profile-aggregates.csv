@@ -1,0 +1,10 @@
+variable,response_label,count
+education,Graduação,18
+education,Ensino médio,9
+education,Mestrado,1
+previous_se_course,Sim,26
+previous_se_course,Não,2
+prior_knowledge,Básico,14
+prior_knowledge,Intermediário,5
+prior_knowledge,Nenhum,7
+prior_knowledge,Avançado,2

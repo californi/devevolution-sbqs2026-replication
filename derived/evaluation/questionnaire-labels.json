@@ -1,0 +1,86 @@
+{
+  "source": "Question labels from author-supplied response export received 2026-10-13",
+  "scope": "Exported labels are preserved in Portuguese. Original form layout, all demographic choices, required-field settings, consent text and routing are not recovered from this export. Likert anchors 1=strongly disagree, 5=strongly agree follow the submitted manuscript.",
+  "questions": [
+    {
+      "id": "CONSENT",
+      "label_pt": "Você concorda em participar desta pesquisa?"
+    },
+    {
+      "id": "PROFILE1",
+      "label_pt": "Qual é o seu nível de formação?"
+    },
+    {
+      "id": "PROFILE2",
+      "label_pt": "Você já cursou alguma disciplina relacionada à Engenharia de Software?"
+    },
+    {
+      "id": "PROFILE3",
+      "label_pt": "Antes de utilizar o DevEvolution, como você avaliava seu conhecimento sobre métricas e medição de software?"
+    },
+    {
+      "id": "SUS1",
+      "label_pt": "Eu acho que gostaria de usar este sistema com frequência"
+    },
+    {
+      "id": "SUS2",
+      "label_pt": "Eu achei o sistema desnecessariamente complexo"
+    },
+    {
+      "id": "SUS3",
+      "label_pt": "Eu achei o sistema fácil de usar"
+    },
+    {
+      "id": "SUS4",
+      "label_pt": "Eu acho que precisaria do apoio de uma pessoa com conhecimentos técnicos para conseguir usar este sistema"
+    },
+    {
+      "id": "SUS5",
+      "label_pt": "Eu achei que as diferentes funções deste sistema estavam bem integradas"
+    },
+    {
+      "id": "SUS6",
+      "label_pt": "Eu achei que havia muita inconsistência neste sistema"
+    },
+    {
+      "id": "SUS7",
+      "label_pt": "Eu imagino que a maioria das pessoas aprenderia a usar este sistema muito rapidamente"
+    },
+    {
+      "id": "SUS8",
+      "label_pt": "Eu achei o sistema muito complicado de usar"
+    },
+    {
+      "id": "SUS9",
+      "label_pt": "Eu me senti confiante ao usar este sistema"
+    },
+    {
+      "id": "SUS10",
+      "label_pt": "Eu precisei aprender muitas coisas antes de conseguir usar este sistema"
+    },
+    {
+      "id": "USE1",
+      "label_pt": "O DevEvolution tornou o aprendizado sobre métricas e medição de software mais interessante"
+    },
+    {
+      "id": "USE2",
+      "label_pt": "O DevEvolution contribuiu para facilitar a compreensão dos conceitos de métricas e medição de software"
+    },
+    {
+      "id": "USE3",
+      "label_pt": "Eu utilizaria novamente o DevEvolution como ferramenta de apoio aos estudos"
+    },
+    {
+      "id": "OPEN1",
+      "label_pt": "O que você mais gostou no DevEvolution?"
+    },
+    {
+      "id": "OPEN2",
+      "label_pt": "Você encontrou alguma dificuldade durante a utilização do jogo? Se sim, qual?"
+    },
+    {
+      "id": "OPEN3",
+      "label_pt": "Que melhorias você sugere para o DevEvolution?"
+    }
+  ]
+}

@@ -4,6 +4,8 @@ Associated paper: **DevEvolution: A Web-Based Gamified Educational Application f
 
 Authors in submission order: Vanessa Rodrigues de Oliveira, Vanusa Rodrigues de Oliveira, Bento Rafael Siqueira, Cristiane Aparecida Lana, Samira Santos da Silva. Affiliations and institutional contacts: [AUTHORS.md](AUTHORS.md).
 
+Updated 2026-10-13 after recovery of an existing author-supplied evaluation response export.
+
 This identified release preserves instructional documents from the existing public archive and provides a source snapshot with deployment configuration decoupled from the original service. No new intervention, experiment, participant data collection, or learning-effectiveness analysis is represented here.
 
 ## Contents and scope
@@ -12,13 +14,19 @@ This identified release preserves instructional documents from the existing publ
 - `derived/source/`: application source; only Supabase deployment configuration changed to environment variables, with `.env.example`.
 - `derived/configuration.patch`: exact configuration-only diff.
 - `derived/content-inventory.json`: mechanical inventory of topics, flashcards, questions and scoring from the archived code.
-- `derived/reported-*.csv`: aggregate values transcribed from the submitted manuscript, explicitly **not participant-level data** and not independently recomputed.
+- `derived/reported-*.csv`: preserved historical manuscript transcriptions.
+- `derived/evaluation/`: anonymized responses (28 complete SUS and three usefulness items), recovered Portuguese question labels, recomputed scores/frequencies, profile aggregates, separately redacted comments, privacy documentation, and a standard-library Python reproduction script.
+- `history/2026-10-12/`: earlier release documentation preserved before recovery of evaluation records.
 - `CONSISTENCY.md`: differences between the source archive, instructional materials, and submitted manuscript.
 - `manifest-sha256.json`: provenance and file checksums.
 
-## Empirical replication limitation
+## Reproducing the recovered quantitative results
 
-The retrieved documentation archive contains six instructional PDFs and a README. It does **not** contain the administered evaluation questionnaire, individual SUS responses, demographic records, or qualitative coding matrix. The source archive likewise does not supply those records. This release supports artifact inspection but does not independently reproduce the empirical evaluation. The reported SUS mean of 92.1 and other statistics remain manuscript reports pending verification. No synthetic data or reconstructed administered questionnaire is included.
+Run `python3 derived/evaluation/recompute.py`. This reproduces the mean SUS 92.05357142857143, median 95, sample standard deviation 7.699614331027291 (n-1), minimum 70, maximum 100, and all SUS and agreement frequencies. The submitted rounded statistics are confirmed. No responses were imputed or excluded and no new data were collected.
+
+The export recovers the Portuguese question labels, not the complete form layout, consent text, demographic choices, required-field settings or routing. Authors confirm online application and grouping of comments. The original coding matrix, detailed reconciliation procedure, evaluated code revision, interaction duration and full-topic completion remain undocumented. Original qualitative category frequencies remain reported values; this release does not perform a new qualitative recoding.
+
+The education labels are aggregates of self-reports; whether they describe completed or ongoing education is unknown. Prior knowledge is a retrospective self-rating collected post-use, not a knowledge pre-test. No objective learning, retention or transfer outcome was collected.
 
 ## Running the source
 
@@ -31,3 +39,5 @@ Downloaded on 2026-10-12 from:
 - https://anonymous.4open.science/r/dev-evolution-game-467a7222-6B2B/
 
 Original downloaded archives are preserved locally. Instructional PDFs are published byte-for-byte. Source configuration changes are documented in a derived file; learning content, labels and scoring are preserved. Operational player names, emails and database exports are excluded. Private reviews and private revision spreadsheets are excluded. No new license is asserted; reuse permissions should be confirmed with the authors where not present in original materials.
+
+The identified instructional repository https://github.com/vanessarodrigues5307/dev-documentacao was downloaded on 2026-10-13 and contains the same six PDFs and original README byte-for-byte as the earlier anonymous documentation archive. It contains no additional evaluation-duration, completion or coding records. The evaluation export was supplied separately by the authors. Its original workbook is preserved privately. See `derived/evaluation/PRIVACY.md` for transformations; exact timestamps, individual profiles and comment-to-score mappings are excluded. Private review documents and revision workbooks are not public replication materials.

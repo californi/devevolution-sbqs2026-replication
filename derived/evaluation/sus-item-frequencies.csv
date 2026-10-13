@@ -1,0 +1,11 @@
+item,polarity,response_1,response_2,response_3,response_4,response_5
+SUS1,positive,0,1,3,10,14
+SUS2,negative,20,8,0,0,0
+SUS3,positive,0,0,1,2,25
+SUS4,negative,20,5,1,2,0
+SUS5,positive,0,0,1,5,22
+SUS6,negative,22,6,0,0,0
+SUS7,positive,0,0,1,7,20
+SUS8,negative,24,2,1,0,1
+SUS9,positive,0,0,2,1,25
+SUS10,negative,23,2,2,0,1
