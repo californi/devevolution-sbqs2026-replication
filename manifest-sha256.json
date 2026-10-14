@@ -6,8 +6,8 @@
   },
   "files": {
     "AUTHORS.md": "991623c6abd3e8eb4ca80f68cd8d0d9f407c9e6c6665aa561f0af8a7c3f4e36c",
-    "CONSISTENCY.md": "a365557c7ac3f60b19eba21b8d4f562b180a6e5c3db5e2c5795c844e9ce9de8c",
-    "README.md": "b92793831bd8535c3d22f9ee84548b14e2ff1bf8ab8bca5ccbf18eadc84c039f",
+    "CONSISTENCY.md": "e1c058b582624e57e0bbd8a7a1ed8e9398528a512e69513bd4188d24ab72d52a",
+    "README.md": "bd5ad4a718adb7f2117cfb80472aaa23c53b3f10cb1d1c1a0ecb84dd269181d6",
     "derived/configuration.patch": "396dd725b2d1298f3ad9723de8bee9d28907b71cd01431e0dc423bb09a70ad5c",
     "derived/content-inventory.json": "4087d9738d7fa47b6c7338a6bffcccb3273e1090755f947a41854e8d3810c8ac",
     "derived/evaluation/PRIVACY.md": "df70d8035458892687c158b1dec33b401349651f5e240bf09b1f7f49f2b73452",
@@ -25,6 +25,15 @@
     "derived/evaluation/sus-scores-recomputed.csv": "61de5cad04adae53ba509befcde436b2aa5fb484f7c13b77bd30332aaef79625",
     "derived/evaluation/sus-summary-recomputed.csv": "cb757c839df885d4dbd7a0c6e70ab71831458cae62346f785b3d5d87475278fd",
     "derived/evaluation/usefulness-frequencies.csv": "e10ca81ee6e77712af3cbf27dad63800fd4f2a9bb04be30b2530511601ed03a1",
+    "derived/figure-rendering/PROVENANCE.json": "0b7fa0e94b4588ae10b1f7d2d31ddce922c36a86e8a9dd03c5d7000c402d0625",
+    "derived/figure-rendering/README.md": "c2bc9ba2724da65ce0cb916b0808c6a3f54d764ef2d2f61137b45383584a9d47",
+    "derived/figure-rendering/assemble_figures.py": "a8ac12f14bba51bb1ca90e1a6c5fc28e091ba618318eec113d8805abefe108a5",
+    "derived/figure-rendering/cache_fonts.py": "747971819331f80aa6729b46083ac8d5e20317e1e3c1d62593e31fb5cd5b7108",
+    "derived/figure-rendering/capture_views.mjs": "d8fd2b86ca661345232d330de90a4940f445373619b236b48ed1d3dffbf27458",
+    "derived/figure-rendering/prepare_views.py": "d737f89edcbef4fa9f9afc7d8cca9b7518e59b6b34e485645ff25405b0253c33",
+    "derived/figure-rendering/preview-app/build.mjs": "6674656d298418551d41cc9557a9c1fff283d2c1533b72e23f7d977f8caf3114",
+    "derived/figure-rendering/preview-app/package.json": "65e35fbe28f0ce36cd2cf4fcb6b48407c7654ecc402ad428f32285103b4606aa",
+    "derived/figure-rendering/preview-app/preview.tsx": "a75ba743933c3edc69f672498426805cb7e39661cfb39275f400b34ae71a9c66",
     "derived/reported-perceptions.csv": "68ac22cf7e30e9312e0860950c8941dbe2c86e8c8727fa9d31f289ab63352bd8",
     "derived/reported-sus-summary.csv": "48b5afc57fc6c695fd31bccc18b22b334a40668ee070c109fe777d6fd2e8045b",
     "derived/source/.env.example": "e365af71a90ce1f8ab929c8380e1b824968316d8dd19244269e2f88538a68162",
@@ -115,5 +124,6 @@
   "evaluation_source": "Privately preserved author-supplied response export; original workbook excluded from public release.",
   "evaluation_source_sha256": "8e88b5061a4241faa517579197525ab3dd6d75b3da56246e308de29091844b28",
   "presentation_updated_on": "2026-10-13",
-  "derived_csv_line_endings": "LF; values and record order unchanged"
+  "derived_csv_line_endings": "LF; values and record order unchanged",
+  "interface_presentation_updated_on": "2026-10-13"
 }

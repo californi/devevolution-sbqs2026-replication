@@ -1,0 +1,13 @@
+{
+  "source": "../source/src/components/DevEvolutionGame.tsx",
+  "source_sha256": "3b4c80672df5ae43f81f9d2a034028d9059b5a86388cca09c87f17e3e66c4150",
+  "method": "Render original supplied React views and original CSS with editorial English text; illustrative states match supplied screenshots; no authentication, backend access, player data or new evaluation",
+  "source_claims": "The six summary cards translate the original instructional claims without independently validating risk bands, formula conditions or coverage guarantees",
+  "detail_crops": "Figure 3: stage selection, one LOC flashcard, and both answer-feedback states; Figure 4: first five path nodes and first three summary cards; complete Portuguese originals remain in the supplement",
+  "browser": "Google Chrome, Playwright 1.62.1",
+  "font_names": [
+    "Fredoka",
+    "Plus Jakarta Sans"
+  ],
+  "private_participant_data_used": false
+}
